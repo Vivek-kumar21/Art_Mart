@@ -64,15 +64,8 @@ Medium: 11px
 }
 
 html {
-  /* font-size: 10px; */
-
-  /* 10px / 16px = 0.625 = 62.5% */
-  /* Percentage of user's browser font-size setting */
   font-size: 62.5%;
   overflow-x: hidden;
-
-  /* Does NOT work on Safari */
-  /* scroll-behavior: smooth; */
 }
 
 body {
@@ -100,33 +93,10 @@ body {
   display: grid;
   column-gap: 6.4rem;
   row-gap: 9.6rem;
-
-  /* margin-bottom: 9.6rem; */
 }
-
-/* .grid:last-child {
-  margin-bottom: 0;
-} */
-/* 
-.grid:not(:last-child) {
-  margin-bottom: 9.6rem;
-}
-
-.grid--2-cols {
-  grid-template-columns: repeat(2, 1fr);
-} */
-
 .grid--3-cols {
   grid-template-columns: repeat(3, 1fr);
 }
-/*
-.grid--4-cols {
-  grid-template-columns: repeat(4, 1fr);
-} 
-
- .grid--5-cols {
-  grid-template-columns: repeat(5, 1fr);
-} */
 
 .grid--center-v {
   align-items: center;
@@ -137,8 +107,6 @@ body {
 .heading-tertiary {
   font-weight: 700;
   color: #333;
-  /* color: #45260a; */
-  /* color: #343a40; */
   letter-spacing: -0.5px;
 }
 
@@ -164,7 +132,7 @@ body {
   display: block;
   font-size: 1.6rem;
   font-weight: 500;
-  color: #cf711f;
+  color: #DD5A44;
   text-transform: uppercase;
   margin-bottom: 1.6rem;
   letter-spacing: 0.75px;
@@ -189,13 +157,13 @@ body {
 
 .btn--full:link,
 .btn--full:visited {
-  background-color: #e67e22;
+  background-color: #DD5A44;
   color: #fff;
 }
 
 .btn--full:hover,
 .btn--full:active {
-  background-color: #cf711f;
+  background-color: #DD5A44;
 }
 
 .btn--outline:link,
@@ -225,7 +193,7 @@ body {
 .link:link,
 .link:visited {
   display: inline-block;
-  color: #e67e22;
+  color: #DD5A44;
   text-decoration: none;
   border-bottom: 1px solid currentColor;
   padding-bottom: 2px;
@@ -234,7 +202,7 @@ body {
 
 .link:hover,
 .link:active {
-  color: #cf711f;
+  color: #DD5A44;
   border-bottom: 1px solid transparent;
 }
 
@@ -256,7 +224,7 @@ body {
 .list-icon {
   width: 3rem;
   height: 3rem;
-  color: #e67e22;
+  color: #DD5A44;
 }
 
 /* HELPER/SETTINGS CLASSES */
