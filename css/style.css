@@ -74,10 +74,12 @@
 }
 
 .search-bar {
-  padding-left: 32px;
+  padding-left: 20px;
+  font-size: 16px;
+  font-weight: 400;
   width: 200px;
   margin-right: -80px;
-  height: 30px;
+  height: 40px;
   border-radius: 8px;
   border: 1px solid transparent;
 }
