@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Art</title>
+    <link rel="stylesheet" href="css/paintings.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#">
+        <img class="logo" alt="logo" src="img/logo.png" />
+      </a>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="index.html">Home</a></li>
+          <li><a class="main-nav-link" href="paintings.html">Painting</a></li>
+          <li><a class="main-nav-link active" href="digitalArt.html">Digital Art</a></li>
+          <li><a class="main-nav-link" href="ai.html">AI Art</a></li>
+          <li><a class="main-nav-link" href="#">Sketch</a></li>
+        </ul>
+      </nav>
+
+      <div>
+        <input
+          class="search-bar"
+          type="text"
+          placeholder=" 🔎︎ Search the store"
+        />
+      </div>
+
+      <div class="header-icon">
+        <a href="#"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="icons icon-1"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+            /></svg
+        ></a>
+
+        <a href="#"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="icons icon-2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+            /></svg
+        ></a>
+      </div>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main class="scroll">
+    <div class="sort">
+      <p>Sort</p>
+      <form>
+        <select name="sort" id="sort-item">
+          <option class="choose" value="friends">Select</option>
+          <option class="choose" value="friends">Newest</option>
+          <option class="choose" value="youtube">Price : Low to High</option>
+          <option class="choose" value="podcast">Price : High to Low</option>
+        </select>
+      </form>
+      <!-- <select id="select-where" name="select-where" required>
+    </select> -->
+    </div>
+
+    <section class="painting-section">
+      <div class="filters">
+        <p>Price</p>
+        <div class="slidecontainer">
+          <input type="range" min="50" max="50000" class="slider" />
+        </div>
+
+        <div class="min-max">
+          <input class="text-area" type="text" placeholder="0" />
+          -
+          <input class="text-area" type="text" placeholder="50000" />
+          <button>Go</button>
+
+          <p>Size</p>
+          <div class="size">
+            <div class="sizee"><p>S</p></div>
+            <div class="sizee"><p>M</p></div>
+            <div class="sizee"><p>L</p></div>
+          </div>
+        </div>
+
+        <div class="options">
+          <div class="option">
+            <p>Orientation</p>
+            <h1>+</h1>
+          </div>
+          <div class="option">
+            <p>Style</p>
+            <h1>+</h1>
+          </div>
+          <div class="option">
+            <p>Subject</p>
+            <h1>+</h1>
+          </div>
+          <div class="option">
+            <p>medium</p>
+            <h1>+</h1>
+          </div>
+          <div class="option">
+            <p>Color</p>
+            <h1>+</h1>
+          </div>
+        </div>
+      </div>
+      <div class="painting-items">
+        <section class="section--3">
+          <div class="bestselling-cards">
+            <div class="row--1">
+              <figure class="best-painting">
+                <img src="img/digital/digital-1.jpg" alt="painting" />
+                <div class="info">
+                  <div class="bold">Diamond</div>
+                  <p class="painter">By Dishita Bansal</p>
+                  <p>Painting</p>
+                  <div class="photo-price">
+                    <p>51.2 x 28.8 In</p>
+                    <p>$200</p>
+                  </div>
+                  <div class="flex">
+                    <div class="price-icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="icon"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                        />
+                      </svg>
+                    </div>
+                    <div class="price-icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="icon"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </figure>
+
+              <figure class="best-painting">
+                <img src="img/digital/digital-2.jpg" alt="painting" />
+                <div class="info">
+                  <div class="bold">Blossom</div>
+                  <p class="painter">By Vivek Kumar</p>
+                  <p>Painting</p>
+                  <div class="photo-price">
+                    <p>51.2 x 28.8 In</p>
+                    <p>$200</p>
+                  </div>
+                  <div class="flex">
+                    <div class="price-icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="icon"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                        />
+                      </svg>
+                    </div>
+                    <div class="price-icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="icon"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </figure>
+
+              <figure class="best-painting">
+                <img src="img/digital/digital-3.jpg" alt="painting" />
+                <div class="info">
+                  <div class="bold">Eye</div>
+                  <p class="painter">By Sai Kishan</p>
+                  <p>Painting</p>
+                  <div class="photo-price">
+                    <p>51.2 x 28.8 In</p>
+                    <p>$200</p>
+                  </div>
+                  <div class="flex">
+                    <div class="price-icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="icon"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                        />
+                      </svg>
+                    </div>
+                    <div class="price-icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="icon"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </figure>
+            </div>
+
+            <div class="row--2">
+              <figure class="best-painting">
+                <img src="img/digital/digital-4.jpg" alt="painting" />
+                <div class="info">
+                  <div class="bold">Astronaut</div>
+                  <p class="painter">By Ankit Kumar</p>
+                  <p>Painting</p>
+                  <div class="photo-price">
+                    <p>51.2 x 28.8 In</p>
+                    <p>$200</p>
+                  </div>
+                  <div class="flex">
+                    <div class="price-icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="icon"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                        />
+                      </svg>
+                    </div>
+                    <div class="price-icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="icon"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </figure>
+
+              <figure class="best-painting">
+                <img src="img/digital/digital-5.jpg" alt="painting" />
+                <div class="info">
+                  <div class="bold">Sphere</div>
+                  <p class="painter">By Dev Karan</p>
+                  <p>Painting</p>
+                  <div class="photo-price">
+                    <p>51.2 x 28.8 In</p>
+                    <p>$200</p>
+                  </div>
+                  <div class="flex">
+                    <div class="price-icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="icon"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                        />
+                      </svg>
+                    </div>
+                    <div class="price-icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="icon"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </figure>
+
+              <figure class="best-painting">
+                <img src="img/digital/digital-6.jpg" alt="painting" />
+                <div class="info">
+                  <div class="bold">Zara Tasveer se tu</div>
+                  <p class="painter">By Niti</p>
+                  <p>Painting</p>
+                  <div class="photo-price">
+                    <p>51.2 x 28.8 In</p>
+                    <p>$200</p>
+                  </div>
+                  <div class="flex">
+                    <div class="price-icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="icon"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                        />
+                      </svg>
+                    </div>
+                    <div class="price-icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="icon"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </figure>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container grid grid--footer">
+          <div class="logo-col">
+              <a href="#" class="footer-logo">
+                  <img class="logo" alt="logo" src="img/logo.png" />
+              </a>
+
+              <ul class="social-links">
+                  <li>
+                      <a class="footer-link" href="#"><ion-icon class="social-icon"
+                              name="logo-instagram"></ion-icon></a>
+                  </li>
+                  <li>
+                      <a class="footer-link" href="#"><ion-icon class="social-icon"
+                              name="logo-facebook"></ion-icon></a>
+                  </li>
+                  <li>
+                      <a class="footer-link" href="#"><ion-icon class="social-icon"
+                              name="logo-twitter"></ion-icon></a>
+                  </li>
+              </ul>
+
+              <p class="copyright">
+                  Copyright &copy; <span class="year">2027</span> by Art Mart, Inc.
+                  All rights reserved.
+              </p>
+          </div>
+
+          <div class="address-col">
+              <p class="footer-heading">Contact us</p>
+              <address class="contacts">
+                  <p class="address">
+                      samarpally, kestopur, kolkata, west bengal 700102
+                  </p>
+                  <p>
+                      <a class="footer-link" href="tel:415-201-6370">1234-567-890</a><br />
+                      <a class="footer-link" href="mailto:hello@omnifood.com">hello@ArtMart.com</a>
+                  </p>
+              </address>
+          </div>
+
+          <nav class="nav-col">
+              <p class="footer-heading">ART CATAGORY</p>
+              <ul class="footer-nav">
+                  <li><a class="footer-link" href="#">Digital Art</a></li>
+                  <li><a class="footer-link" href="#">Sketch</a></li>
+                  <li><a class="footer-link" href="#">Photography</a></li>
+                  <li><a class="footer-link" href="#">AI Art</a></li>
+              </ul>
+          </nav>
+
+          <nav class="nav-col">
+              <p class="footer-heading">ARTISTS</p>
+              <ul class="footer-nav">
+                  <li><a class="footer-link" href="#">M F Husain</a></li>
+                  <li><a class="footer-link" href="#">S H Raza</a></li>
+                  <li><a class="footer-link" href="#">Jatin Das</a></li>
+                  <li><a class="footer-link" href="#">Jyoti Bhatt</a></li>
+              </ul>
+          </nav>
+
+          <nav class="nav-col">
+              <p class="footer-heading">ABOUT</p>
+              <ul class="footer-nav">
+                  <li><a class="footer-link" href="#">The Team</a></li>
+                  <li><a class="footer-link" href="#">Testimonials</a></li>
+                  <li><a class="footer-link" href="#">Work With Us</a></li>
+                  <li><a class="footer-link" href="#">Contact Us</a></li>
+              </ul>
+          </nav>
+      </div>
+  </footer>
+  </main>
+  </body>
+</html>
